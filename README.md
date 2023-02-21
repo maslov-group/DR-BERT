@@ -27,3 +27,6 @@ Once you're all set up you can use the `get_scores_fasta` script like this
 python3 get_scores_fasta.py ./DR-BERT-final/ sample.fa sample_out.pkl
  ```
  Where `./DR-BERT-final/` is the unzipped model weights folder you have downloaded, `sample.fa` is the fasta file with sequences that you want to get DR-BERT scores for and `sample_out.pkl` is the name of the output file.
+
+## Training your own model
+If you want to finetune (or pretrain) your own model, you can use the appropriate notebook from the Notebooks directory and download the relevant data [here](https://drive.google.com/drive/folders/1tCZc6nNpk9hATftKIw5QF4wfoGomV0wd?usp=sharing). To finetune, you should also start with the pretrained model weights found [here](https://drive.google.com/drive/folders/1hMAnXaPrK9HPzcC0RZ5d7zsw3IXN910f?usp=sharing).

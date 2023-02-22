@@ -16,7 +16,7 @@ conda install -c huggingface transformers
 conda install pandas
 conda install pytorch
 ```
-We also have made available a `minimal.yml` file that you can use to create the conda environment by saying
+Alternatively, we also have made available a `minimal.yml` file that you can use to create the conda environment by saying
 ```shell
 conda env create -f minimal.yml
 ```

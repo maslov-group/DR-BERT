@@ -73,4 +73,4 @@ dependencies:
   - yaml=0.2.5=h4e0d66e_2
   - zipp=3.14.0=pyhd8ed1ab_0
   - zlib=1.2.13=hb283c62_4
-prefix: /home/nambiar4/.conda/envs/test
+

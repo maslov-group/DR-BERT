@@ -16,7 +16,11 @@ conda install -c huggingface transformers
 conda install pandas
 conda install pytorch
 ```
-We also have made available a `minimal.yml` file that you can use to create the conda environment. You do not need a GPU!
+We also have made available a `minimal.yml` file that you can use to create the conda environment by saying
+```shell
+conda env create -f minimal.yml
+```
+You do not need a GPU for to get DR-BERT scores as long as it's not for too many sequences!
 
 ## Downloading the model checkpoints
 You can download the DR-BERT model weights from our Google Drive folder [here](https://drive.google.com/drive/folders/1hMAnXaPrK9HPzcC0RZ5d7zsw3IXN910f?usp=sharing). Once you have downloaded the checkpoint, unzip it.
